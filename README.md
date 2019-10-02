@@ -1,3 +1,16 @@
+1 下载以后导入到开发工具
+2  配置Application  
+main class  配置 org.apache.catalina.startup.Bootstrap
+vm options 配置    
+-Dcatalina.home=catalina-home
+-Dcatalina.base=catalina-home
+-Djava.endorsed.dirs=catalina-home/endorsed
+-Djava.io.tmpdir=catalina-home/temp
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+
+
+
 ## Welcome to Apache Tomcat!
 
 ### What Is It?
